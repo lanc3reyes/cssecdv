@@ -5,7 +5,7 @@
   "summary": {
     "title": "ReyesLance_Activity3",
     "owner": "Lance Andrei Reyes",
-    "description": "STRIDE threat modeling of the user verification and feedback system, using the corrected Activity 2 data flow diagram.",
+    "description": "",
     "id": 0
   },
   "detail": {
@@ -13,7 +13,7 @@
     "diagrams": [
       {
         "id": 0,
-        "title": "User verification and feedback",
+        "title": "ReyesLance_Activity3",
         "diagramType": "STRIDE",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "version": "2.6.2",
@@ -1638,7 +1638,7 @@
             }
           }
         ],
-        "description": "Activity 3 STRIDE threats mapped to the corrected Activity 2 DFD. LDAP is modeled as directory data. Trust separations follow the reference and are assumptions because deployment and ownership are unspecified. Threat descriptions and supplied mitigations follow the activity table; scores and priority levels are not assessed."
+        "description": ""
       }
     ],
     "diagramTop": 1,
