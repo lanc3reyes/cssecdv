@@ -5,7 +5,7 @@
   "summary": {
     "title": "ReyesLance_Activity2",
     "owner": "Lance Andrei Reyes",
-    "description": "Corrected data flow diagram for user verification and feedback submission",
+    "description": "",
     "id": 0
   },
   "detail": {
@@ -13,7 +13,7 @@
     "diagrams": [
       {
         "id": 0,
-        "title": "User verification and feedback",
+        "title": "ReyesLance_Activity2",
         "diagramType": "Generic",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "version": "2.6.2",
@@ -1517,7 +1517,7 @@
             }
           }
         ],
-        "description": "Corrected reference DFD. LDAP is modeled as directory data; the provider handles the identity and privilege verification implied by the reference. Trust separations follow the reference and are assumptions because deployment and ownership are unspecified. Threats and scores are excluded for this activity."
+        "description": ""
       }
     ],
     "diagramTop": 1,
