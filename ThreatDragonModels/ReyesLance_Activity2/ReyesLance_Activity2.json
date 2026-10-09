@@ -40,6 +40,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -123,7 +124,6 @@
               ]
             },
             "id": "6b07e4c1-8906-4569-a2e0-85336f7693d8",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Browser Client",
@@ -157,6 +157,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -240,7 +241,6 @@
               ]
             },
             "id": "804e3a59-d69d-481b-801a-bc27b27aab96",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -277,6 +277,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -360,7 +361,6 @@
               ]
             },
             "id": "e98ca1a8-53b6-4878-9b13-301af7253642",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Authorization Provider",
@@ -400,6 +400,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -483,7 +484,6 @@
               ]
             },
             "id": "0b67b742-7cf9-436f-a1b1-24efe2cee8a3",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
@@ -524,6 +524,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -607,7 +608,6 @@
               ]
             },
             "id": "54452a36-1d6c-4850-b046-b5f1aa56cf03",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -622,6 +622,52 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User sends user credentials",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User sends user credentials"
+            ],
+            "id": "b2f54f53-0580-47cf-807b-51e5f342e059",
+            "source": {
+              "x": 250,
+              "y": 410
+            },
+            "target": {
+              "x": 350,
+              "y": 510
             }
           }
         ]
