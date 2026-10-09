@@ -38,8 +38,12 @@
                 "stroke": "#666666",
                 "strokeWidth": 2,
                 "strokeDasharray": "10 6",
-                "sourceMarker": null,
-                "targetMarker": null
+                "sourceMarker": {
+                  "name": ""
+                },
+                "targetMarker": {
+                  "name": ""
+                }
               }
             },
             "labels": [
@@ -104,8 +108,12 @@
                 "stroke": "#666666",
                 "strokeWidth": 2,
                 "strokeDasharray": "10 6",
-                "sourceMarker": null,
-                "targetMarker": null
+                "sourceMarker": {
+                  "name": ""
+                },
+                "targetMarker": {
+                  "name": ""
+                }
               }
             },
             "labels": [
@@ -156,11 +164,11 @@
             "height": 100,
             "connector": "normal",
             "source": {
-              "x": 1100,
+              "x": 1210,
               "y": 100
             },
             "target": {
-              "x": 1100,
+              "x": 1210,
               "y": 900
             },
             "attrs": {
@@ -168,8 +176,12 @@
                 "stroke": "#666666",
                 "strokeWidth": 2,
                 "strokeDasharray": "10 6",
-                "sourceMarker": null,
-                "targetMarker": null
+                "sourceMarker": {
+                  "name": ""
+                },
+                "targetMarker": {
+                  "name": ""
+                }
               }
             },
             "labels": [
@@ -1588,7 +1600,7 @@
                   }
                 },
                 "position": {
-                  "distance": 0.22,
+                  "distance": 0.5,
                   "offset": 0,
                   "args": {
                     "keepGradient": false,
@@ -1665,7 +1677,7 @@
                   }
                 },
                 "position": {
-                  "distance": 0.78,
+                  "distance": 0.5,
                   "offset": 0,
                   "args": {
                     "keepGradient": false,
@@ -1742,7 +1754,7 @@
                   }
                 },
                 "position": {
-                  "distance": 0.22,
+                  "distance": 0.5,
                   "offset": 0,
                   "args": {
                     "keepGradient": false,
@@ -1819,7 +1831,7 @@
                   }
                 },
                 "position": {
-                  "distance": 0.78,
+                  "distance": 0.5,
                   "offset": 0,
                   "args": {
                     "keepGradient": false,
