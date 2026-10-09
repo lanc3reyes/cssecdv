@@ -1638,53 +1638,6 @@
               ],
               "name": null
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 12,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "3b024f84-4fee-4063-9190-3ea5c1ae9143",
-            "source": {
-              "cell": "6b07e4c1-8906-4569-a2e0-85336f7693d8",
-              "port": "77efc612-4422-439b-a4f9-a4cfe80c565c"
-            },
-            "target": {
-              "cell": "6b07e4c1-8906-4569-a2e0-85336f7693d8",
-              "port": "ede71bd4-00f0-4272-bdec-5e69658d7dba"
-            },
-            "vertices": []
           }
         ],
         "description": "Corrected reference DFD. LDAP is modeled as directory data; the provider handles the identity and privilege verification implied by the reference. Trust separations follow the reference and are assumptions because deployment and ownership are unspecified. Threats and scores are excluded for this activity."
